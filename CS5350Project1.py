@@ -1,0 +1,453 @@
+import numpy as np
+import csv
+from scipy.sparse import csr_matrix
+from libsvm import read_libsvm
+import numpy as np
+import json
+from data import Data
+import numpy as np
+import math
+DATA_DIR = 'data/'
+import random
+import string
+
+# 361 in each row
+# 7597 rows
+# 1968750 biggest number
+
+def randomString(stringLength=10):
+    """Generate a random string of fixed length """
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for i in range(stringLength))
+
+def labelDivider(item):
+    if item == 0.0:
+        return 'a'
+    elif item > 0 and item < 100:
+        return 'b'
+    elif item > 100 and item < 200:
+        return 'c'
+    elif item > 200 and item < 300:
+        return 'd'
+    elif item > 300 and item < 400:
+        return 'e'
+    elif item > 400:
+        return 'k'
+    else:
+        return 'z'
+
+def int_to_Char_Array(_attributes, _labels):
+    _matrix = []
+
+    # _new_labels = []
+    # _new_labels.append("label")
+    # for h in range(361):
+    #     _new_labels.append(randomString())
+    # _matrix.append(_new_labels)
+
+    _label_counter = 0
+    # each row
+    for _rowItem in _attributes:
+        _row = _rowItem.flat
+        _size = len(_row)
+        _new_row = []
+        for i in range(_size):
+            if i == 0:
+
+                if _labels[_label_counter] == 0:
+                    _new_row.append('p')
+                else:
+                    _new_row.append('e')
+                _label_counter = _label_counter + 1
+
+                # _new_row.append(str(_labels[i]))
+
+                _new_row.append(labelDivider(_row[i]))
+                #_new_row.append(str(_row[i]))
+            else:
+                _new_row.append(labelDivider(_row[i]))
+                #_new_row.append(str(_row[i]))
+        _matrix.append(_new_row)
+    return _matrix
+
+def formatFile(x,y):
+    f = open("fileFormated","w+")
+    f.write("label,whqfkwnejj,myilaovmof,gqqhhdcakt,eparantois,rxfiioiett,cfdpcdmswd,kgttzcgajj,jvqvvauolz,mxuyesgbzt,ixgjabhlac,bnctckgczq,gchbpcwbjd,rrdzhdxjgb,bexyxsnjog,tymgvvuiuq,stbaqqjysj,gnibnjfeik,yxjtjmrpyy,xttlomdabw,bylichgple,gjseqrcbqe,ezhdwftimo,lgzifpuexk,ofglpfgbsy,lmwgxjypry,kjwhzqkino,izafuopyij,duqavummhb,fbismikerv,snxobbtrrd,ewafijxisa,ghjxaiedpv,yulnbgwdvd,mvsdkukyty,cfjhqvsmrr,jipqxepkpn,zfgkuyapeh,zpqkgfxhuk,yhsgkvgjoz,lfbxkgedjk,hiysiktvbo,emmctotaoh,ctwqoibbaf,btghzslplk,mcrxnfjbna,kltgpgstls,fcvybaozyz,weheceeeit,lzlncxbiti,eslqhenyyy,coykyogelt,ajmvzfvmav,zvdjjxuykq,wtothuvctn,vrlwqdootm,isjfqhazor,lnjtpcdbss,ifnnzoifdy,mlvukeudpq,otcxfutikt,iqgzwsajjk,nonussrbvy,raortnrepn,xujmqupzgs,qudbuiwhtb,infssonkxa,eeuokwkmir,lkapivvzie,beaanzoduz,wynbllkads,bttbbeztbz,kzugducghb,ueumbferrh,vhwymtzpwn,ekuohmmbuz,ttkgspdozj,rcxsdnrpnu,xbrabcdgsy,voxknfwxtw,tnphbuoymk,fdncirwibv,toslwbmdxi,krjhhhvret,ggvnwbsqwt,ftiueqoprk,iwfekltpgr,tdvydffrxa,ngxbhhvqtn,cogtmepbyz,dyyiyqrokp,iefgrpisyg,cpsamxvdib,xlfmowhrvk,vhareiiiup,gzuxdhkctt,ndihlagmtx,vxtephndjv,ihqnwwbydh,bpjqyiskgr,njwqqsxyuk,nycniaohad,dzrwnyhnhp,ncwsiqjdwq,kwzyoxvqry,pqvscddnzr,fcyijwfgym,qjouehktjt,fjwmqzjaje,yelgvzjcfj,huvjyldwnl,fakcfhruhm,ongsddodmx,dxriuyzehp,utihbzjkgs,agmrssmdon,mbxkciuoyh,fgrwnlxyub,kagwmlqybs,vaxqtyzjus,zvqglxjnuc,lvhbvjxoyg,aqwokywokf,jefpvowpxb,ixibkzouxc,jocwfrvsht,gylgqevngl,ezyhfflilz,weecllepen,lrnfxabbec,lrgrieueov,oueyheufka,szmabprgfg,zjykopukch,goqfilxrlj,azihiwusps,fgfcpstrgt,mqvqxzdoky,boxfgwbjrx,qvnokzkwdy,egzqbgvinl,auhabwwsvo,yflcvuobfy,maqkghjgkj,vyerekwych,endqfngwyg,uwcbwtmzfs,yxkbegijyy,pdtmlnveuf,jaxgdxtvkx,dzcvlqecdr,aqnypkejxm,bzqincoxng,jwmcqnjuav,luezxjplmi,qsfuomxkrm,jjuvfrpjqf,soomzlrylb,przfviytqm,djngpzwaxl,decggxnrdn,hbdzooaepn,rnbnfwmasc,arpnphjzzb,lqzebqbhem,yjggnmeudu,buyiwwrsua,cfvxcgoesm,xrtbfzpejj,vyqhhrodkx,ifcvguloyn,fnqqcxufxg,pvebcvvcix,dyilzdouqv,tyfddlxehx,midtfijcda,mnktvkuftc,ydwnqprzxb,ilsuhqahsr,nbvapztiob,xjyotckhug,zerwxqabgy,pitnfpxbey,dpixokrnhu,lkokrobahg,rhjmorersb,gezypsloyg,grpkzgaihw,enogtoigzx,ohglngftek,uqzrsqpjzm,diaiftgpkd,xnlangfbft,uxocbmpgxo,tzvptvyied,jfcycmtdcu,amtuquumdu,mjobvsywzk,sirqkhxvgk,tpiciciqio,rnpkpazjjm,omggzumpvd,ntbqayuytr,hqgjnwzbbz,bltfawvusw,gdgqsjutqy,ekpnbpglve,mlcnisgiyp,bnvfqzfylj,tgszgmwsdq,atdefufbyb,shtklhrrty,manzmhliwr,dvvqgknjxp,vgecpllevj,kscymqapdb,lznvhmamua,mfxentyaoo,wheirinwvl,zmdivsqdib,vdeunxlqhj,ekkapeemvi,aaozocecgc,wzvgotgkyq,kqvrmrhwla,uldhcbezpf,pzcqkodnjo,pdgsosktxt,ytbnekeick,ipqirxubim,jsmsldgplj,jrtoyjhtgs,xthwrxwzri,lfvwkeqafm,eumzaqicig,kajjikmiqx,rqnaagyynd,jejnpptpkn,weereucwba,ynoesfzvno,zunbuewdko,pxsflwnmoa,jpftjvuxat,jzowrwquef,viwqadlkea,cnqmidvnbc,jvoanyhrab,vvcdlxwswy,kayirjkbqd,oevqpotnxr,jeqtumtbsv,idzrmnqofl,ujbqoumnhq,vnnkeitvol,lawanitain,ibcphqrink,yowfyntluk,akawllyngi,jczsiwnxem,pgakvendci,bcdxnaoaui,mgrmdeoojd,ezkaccsmpt,botjzbmxly,hyobpoggps,gcsxcbztgk,qqvnmbqpaf,jhpypywlcw,edwdmqhhev,qrrviawpqn,ifmogdigbt,ujbxevsdta,crgctgcnee,oaxjlhyett,xynpdvdmkf,ltopdjvhue,pbqcxbxqoh,qsheyyqghn,wfidnodrsp,fwtntoyngw,ueojnfdsrn,icppmuwqfo,wzmgwonrhd,lcvxaszvip,jrusjvutcp,blfqqetlxj,lqudjcadhd,bbrtcgcmsz,pfcdebpgaq,yqjbkiasbv,ubmsyrqlna,agouthrefw,ndlyysixvk,zgktzwzanv,obooqvylun,bytgowrbwk,keqydrxjmt,hydmzxpkng,bpezhyzzjf,scneodqwxr,ebgjkwsyuz,uxavpllcem,rhaaaxejyt,snbqylmueq,xlzkxlcksl,fhcohevcwd,hqbzkoozqw,bswqodotcz,xlqbkdhxyk,qempczqtdj,dtqpmmacmx,fvafiuzxcq,luecikmply,kbjttitklk,pdmgqmandc,czrcmlhmej,omrjwzobls,beguaiclxf,umslpptrju,srrwylmqph,rqaqxvnhnh,woeabiblwe,yiraubemlg,butjihzjie,bkyqcjespu,fmqayfevrh,jhriuwtnhs,ggleglhzem,caloesuqof,fggsyunvlw,aevwecgylv,flxxjantfx,vclkiomvlb,eicoziliav,fhmwdkuumj,ubwftdwsns,tmdsydbkpv,zosipzrfsp,zymtgqgcge,lbqvsnjcsn,nfodbihjct,rqcjhibkyf,iuckxrgvbk,hblczwfdpc,huvilotqlx,etvkfzxeij,mxryvhpzfp,pfjkwilixj,ygebnhinvk,tlyymqywyp,knubxxprkm,lkdozcfgwk,tsgtchhqys,pluyuypyxc,anpdxrupju,miiutulvjt,rsoafuipnx,ugblcfkcbr,jqamnettma,xnkerkrljt,zpqsytxryi,sxhjzamfxo\n")
+    m = int_to_Char_Array(x, y)
+    for i in range(len(m)):
+        row = m[i]
+        list = ''
+        for j in range(len(row)):
+            if j == 0:
+                list = list + row[j]
+            else:
+                list = list + ',' + row[j]
+        f.write(list + "\n")
+    f.close()
+
+'''
+This method calculates the entropy of the result column
+'''
+def entropyResult(entropyResultData_obj):
+    column = entropyResultData_obj.get_column('label')
+    total = len(column)
+    pSum = 0
+    eSum = 0
+
+    for row in column:
+        if row == 'p':
+            pSum = pSum + 1
+        else:
+            eSum = eSum + 1
+
+    if pSum == 0 or eSum == 0:
+        return 0
+
+    pFrac = pSum / total
+    eFrac = eSum / total
+    return (-eFrac*math.log(eFrac,2)-pFrac*math.log(pFrac,2))
+
+'''
+This method returns entropy of a column value 
+'''
+def entropy(entropyData_obj):
+    total = len(entropyData_obj)
+    pSum = 0
+    eSum = 0
+
+    for row in entropyData_obj:
+        if row[1] == 'p':
+            pSum = pSum + 1
+        else:
+            eSum = eSum + 1
+
+    if pSum == 0 or eSum == 0:
+        return 0
+
+    pFrac = pSum / total
+    eFrac = eSum / total
+    return (-eFrac * math.log(eFrac, 2) - pFrac * math.log(pFrac, 2))
+
+'''
+This method calculates the expected Entropy
+'''
+def expectedEntropy(expectedEntropyData_obj, expectedEntropyValues, expectedEntropyAttribute):
+    total = len(expectedEntropyData_obj)
+    expectedEntropyValue = 0
+
+    for value in expectedEntropyValues:
+        entropyValue = entropy(expectedEntropyData_obj.get_row_subset(expectedEntropyAttribute, value).get_column([expectedEntropyAttribute, 'label']))
+        size = len(expectedEntropyData_obj.get_row_subset(expectedEntropyAttribute, value).get_column([expectedEntropyAttribute, 'label']))
+        expectedEntropyValue = expectedEntropyValue + ((size / total) * entropyValue)
+
+    return expectedEntropyValue
+
+'''
+This calculates information gain
+'''
+def informationGain(infoGainData_obj, infoGainAttributes):
+    resultEntropy = entropyResult(infoGainData_obj)
+
+    informationGainResult = {}
+
+    for attribute in infoGainAttributes:
+        expectedEntropyResult = expectedEntropy(infoGainData_obj, infoGainData_obj.get_attribute_possible_vals(attribute), attribute)
+        informationGainResult[attribute] = resultEntropy - expectedEntropyResult
+
+    return informationGainResult
+
+'''
+This method checks if all the labels are the same
+'''
+def sameLabelChecker(sameLabelCheckerData_obj):
+    column = sameLabelCheckerData_obj.get_column('label')
+    label = None
+    checker = False
+
+    for row in column:
+        if checker == False:
+            checker = True
+            label = row
+        else:
+            if label != row:
+                return False
+
+    return checker
+
+'''
+This returns the next attribute based off information gained
+'''
+def nextRoot(nextRootAttributes, nextRootData_obj):
+    informationGainResult = informationGain(nextRootData_obj, nextRootAttributes)
+    maxValue = -1
+    attributeRoot = "Carlos"
+
+    for attribute in nextRootAttributes:
+        if informationGainResult[attribute] > maxValue:
+            maxValue = informationGainResult[attribute]
+            attributeRoot = attribute
+
+    return attributeRoot
+
+'''
+Finds the majority label
+'''
+def majority(majorityData_obj):
+    column = majorityData_obj.get_column('label')
+    total = len(column)
+    pSum = 0
+    eSum = 0
+
+    for row in column:
+        if row == 'p':
+            pSum = pSum + 1
+        else:
+            eSum = eSum + 1
+
+    if pSum > eSum:
+        return 'p'
+    else:
+        return 'e'
+
+'''
+This returns the expected Label given a row and using a decision tree
+'''
+def expectedLabel(expectedLabelAttributes, expectedLabelRow, expetedLabelRoot):
+    if expetedLabelRoot.value is not None:
+        # print(root.type)
+        return expetedLabelRoot.value
+    else:
+        index = expectedLabelAttributes[expetedLabelRoot.attribute].index
+        for kid in expetedLabelRoot.kids:
+            branch = expectedLabelRow[index + 1]
+            if branch == kid.branch:
+                return expectedLabel(expectedLabelAttributes, expectedLabelRow, kid)
+
+'''
+This calculates the accuracy of a program
+'''
+def accuracy(accuracyData_obj, accuracyRoot):
+    numRows = len(accuracyData_obj)
+    rows = accuracyData_obj.raw_data
+    correctCounter = 0
+
+    for row in rows:
+        expected = expectedLabel(accuracyData_obj.attributes, row, accuracyRoot)
+        label = row[0]
+        if label  == expected:
+            correctCounter += 1
+
+    return (correctCounter / numRows) * 100
+
+'''
+This class represents a Node that helps create a tree
+attribute = the branch of the tree
+type = root or leaf
+kids = the children of the root
+value = the label of the leaf
+'''
+class Node():
+    def __init__(self, type):
+        self.type = type
+        self.attribute = None
+        self.branch = None
+        self.kids = []
+        self.value = None
+
+'''
+This method creates a decision tree and returns the root node to the tree.
+ The method uses the ID3 algorithm, uses the majority when no answer.
+'''
+def id3(id3Attributes, id3Data_obj):
+    id3AttributesCopy = id3Attributes.copy()
+    if sameLabelChecker(id3Data_obj):
+        leaf = Node("leaf")
+        leaf.value = next(iter(id3Data_obj.get_column('label')))
+        return leaf
+    else:
+        root = Node("root")
+        attribute = nextRoot(id3AttributesCopy, id3Data_obj)
+        root.attribute = attribute
+        branches = id3Data_obj.attributes[attribute].possible_vals
+        id3AttributesCopy.pop(attribute)
+        for branch in branches:
+            data_subset = id3Data_obj.get_row_subset(attribute, branch)
+            if len(data_subset) == 0:
+                label = majority(id3Data_obj)
+                leaf = Node("leaf")
+                leaf.value = label
+                leaf.branch = branch
+                root.kids.append(leaf)
+            else:
+                kid = id3(id3AttributesCopy,data_subset)
+                kid.branch = branch
+                root.kids.append(kid)
+
+        return root
+
+'''
+This method creates a decision tree and returns the root node to the tree.
+ The method uses the ID3 algorithm, uses the majority when no answer.
+ This has depth control
+'''
+def id3Depth(id3Attributes, id3Data_obj,depth):
+    id3AttributesCopy = id3Attributes.copy()
+    if sameLabelChecker(id3Data_obj):
+        leaf = Node("leaf")
+        leaf.value = next(iter(id3Data_obj.get_column('label')))
+        return leaf
+    elif depth == 0:
+        leaf = Node("leaf")
+        label = majority(id3Data_obj)
+        leaf.value = label
+        return leaf
+    else:
+        root = Node("root")
+        attribute = nextRoot(id3AttributesCopy, id3Data_obj)
+        root.attribute = attribute
+        branches = id3Data_obj.attributes[attribute].possible_vals
+        id3AttributesCopy.pop(attribute)
+        for branch in branches:
+            data_subset = id3Data_obj.get_row_subset(attribute, branch)
+            if len(data_subset) == 0:
+                label = majority(id3Data_obj)
+                leaf = Node("leaf")
+                leaf.value = label
+                leaf.branch = branch
+                root.kids.append(leaf)
+            else:
+                kid = id3Depth(id3AttributesCopy,data_subset, depth - 1)
+                kid.branch = branch
+                root.kids.append(kid)
+
+        return root
+
+'''
+This method calculates the depth of the tree
+'''
+def depth(root,level):
+    if root.value is not None:
+        return level
+    else:
+        max = level
+        for x in root.kids:
+            dep = depth(x,level+1)
+            if dep > max:
+                max = dep
+        return max
+
+def standardDeviation(average, accu):
+    sum = 0
+    sum = sum + ((accu[0] - average) * (accu[0] - average))
+    sum = sum + ((accu[1] - average) * (accu[1] - average))
+    sum = sum + ((accu[2] - average) * (accu[2] - average))
+    sum = sum + ((accu[3] - average) * (accu[3] - average))
+    sum = sum + ((accu[4] - average) * (accu[4] - average))
+    sum = sum / 5
+    return math.sqrt(sum)
+
+
+########################################################################################################################
+
+printBool = True
+X_train, y_train, num_features = read_libsvm('data_train')
+x = X_train.todense()
+formatFile(x,y_train)
+trainData = np.loadtxt('fileFormated', delimiter=',', dtype = str)
+trainData_obj = Data(data = trainData)
+# print("(a) Most common label in the data",majority(trainData_obj))
+# print("(b) Entropy of the data",entropyResult(trainData_obj))
+X_test, y_test, num_features = read_libsvm("data_test")
+x = X_test.todense()
+formatFile(x,y_test)
+testData = np.loadtxt('fileFormated', delimiter=',', dtype = str)
+testData_obj = Data(data = testData)
+attributesSet = trainData_obj.attributes
+rootNode = id3(attributesSet, trainData_obj)
+ig = informationGain(trainData_obj, trainData_obj.attributes.keys())
+print("(c) Best feature and its information gain",rootNode.attribute,ig[rootNode.attribute])
+# print("Depth:", depth(rootNode,0))
+print("(d) Accuracy on the training set",accuracy(trainData_obj, rootNode),"%")
+print("(e) Accuracy on the test set",accuracy(testData_obj, rootNode),"%")
+
+#######################################################################################################################
+bestDepth = 0
+bestaccuracy = 0
+depths = [1,2,3,4,5,10,15]
+combineFoldsNames = ["fold1234", "fold1235", "fold1245", "fold1345", "fold2345"]
+singleFoldNames = ["fold5", "fold4", "fold3", "fold2", "fold1"]
+
+for i in range(7):
+    depth = depths[i]
+    accuracies = []
+
+    for j in range(5):
+        combineFoldName = combineFoldsNames[j]
+        singleFoldName = singleFoldNames[j]
+
+        X_train, y_train, num_features = read_libsvm(combineFoldName)
+        x = X_train.todense()
+        formatFile(x, y_train)
+        combineFoldData = np.loadtxt('fileFormated', delimiter=',', dtype=str)
+        # combineFoldData = np.loadtxt(DATA_DIR + combineFoldName, delimiter=',', dtype=str)
+        combineFoldData_obj = Data(data=combineFoldData)
+
+        X_train, y_train, num_features = read_libsvm(singleFoldName)
+        x = X_train.todense()
+        formatFile(x, y_train)
+        singleFoldData = np.loadtxt('fileFormated', delimiter=',', dtype=str)
+        # singleFoldData = np.loadtxt(DATA_DIR + singleFoldName, delimiter=',', dtype=str)
+        singleFoldData_obj = Data(data=singleFoldData)
+
+        attributesSet = combineFoldData_obj.attributes
+        rootID3Combine = id3Depth(attributesSet, combineFoldData_obj, depth)
+        thisAccuracy = accuracy(singleFoldData_obj, rootID3Combine)
+        accuracies.append(thisAccuracy)
+
+    sum = 0
+    for j in range(5):
+        sum += accuracies[j]
+    average = sum / 5
+
+    if average > bestaccuracy:
+        bestDepth = depth
+        bestaccuracy = average
+
+    print("(f) Cross-validation accuracies for fold",depth,":", average,"% Standard Deviation:",standardDeviation(average,accuracies))
+
+########################################################################################################################
+
+rootNodeDepth = id3Depth(attributesSet, trainData_obj, 10)
+# print("(g) Best depth",bestDepth)
+print("(h) Accuracy on the test set using the best depth",accuracy(testData_obj, rootNodeDepth),"%")
+# print("Depth:", depth(rootNode,0))
+
+X_train, y_train, num_features = read_libsvm('data_real')
+x = X_train.todense()
+formatFile(x, y_train)
+trainData = np.loadtxt('fileFormated', delimiter=',', dtype=str)
+trainData_obj = Data(data = trainData)
+
+accuracyData_obj = trainData_obj
+accuracyRoot = rootNodeDepth
+
+numRows = len(accuracyData_obj)
+rows = accuracyData_obj.raw_data
+with open('IDs') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+    with open('result4.csv', mode='w') as employee_file:
+        result_Writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        result_Writer.writerow(['example_id', 'label'])
+        counter = 0
+        for row in readCSV:
+            expected = expectedLabel(accuracyData_obj.attributes, rows[counter], accuracyRoot)
+
+            if expected == 'p':
+                result_Writer.writerow([row[0], '0'])
+            else:
+                result_Writer.writerow([row[0],'1'])
+            counter = counter + 1
+
+
+
+
