@@ -1,0 +1,463 @@
+Cyprus:Fluoroquinolones:<56.5,60.6,77.6,83.3,42.0,51.9,46.4,45.5,21.5,23.5,26.3,37.1,15.4,10.6,16.7,11.6>
+Cyprus:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<17.3,4.3,14.3,2.3>
+Cyprus:Macrolides:<1.0,26.7,0.0,1.0>
+Cyprus:Third-Generation Cephalosporins:<31.8,38.9,28.8,28.5,23.1,30.9,32.5,43.5>
+Cyprus:Gentamicin:<10.4,26.9,17.5,8.6>
+Cyprus:Penicillins and Macrolides:<1.0,26.7,0.0,1.0>
+Cyprus:Aminoglycosides:<52.2,60.6,73.7,74.6,21.0,24.7,17.6,13.8,15.4,22.1,28.8,37.1,15.4,4.3,9.5,0.0>
+Cyprus:Vancomycin:<10.3,23.3,40.0,28.6>
+Cyprus:Meticillin:<35.2,32.5,36.0,43.4>
+Cyprus:Piperacillin+Tazobactam:<10.0,8.5,16.7,4.7>
+Cyprus:Penicillin:<1.0,40.0,0.0,1.0>
+Cyprus:Fluoroquinolones, Aminoglycosides and Carbapenems:<47.8,60.6,73.7,72.9>
+Cyprus:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<14.8,20.4,13.1,9.8,9.2,5.9,15.0,17.7>
+Cyprus:Carbapenems:<56.5,60.6,77.6,83.1,1.0,0.0,0.0,0.0,9.2,5.9,5.0,12.9,19.2,19.1,33.3,20.9>
+Cyprus:Aminopenicillins:<70.5,77.2,71.2,68.3>
+Cyprus:Ceftazidime:<15.4,12.8,23.8,4.7>
+SlovakRepublic:Gentamicin:<50.3,57.4,41.0,49.1>
+SlovakRepublic:Third-Generation Cephalosporins:<62.7,66.4,69.4,67.2>
+Portugal:Fluoroquinolones:<77.4,68.9,52.7,55.8,30.3,31.6,32.4,29.7,35.8,35.7,36.5,38.6,25.6,23.9,26.3,22.7>
+Portugal:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<18.1,11.9,20.6,11.8>
+Portugal:Macrolides:<18.5,20.6,16.0,17.0>
+Portugal:Third-Generation Cephalosporins:<13.5,14.9,16.4,16.1,38.7,37.0,40.9,40.4>
+Portugal:Gentamicin:<42.9,37.2,32.6,33.3>
+Portugal:Penicillins and Macrolides:<6.5,4.3,5.8,6.6>
+Portugal:Aminoglycosides:<65.1,56.3,42.3,46.5,16.2,15.2,15.1,13.8,31.8,29.4,30.5,32.6,14.5,14.2,17.6,13.5>
+Portugal:Vancomycin:<23.3,22.0,20.1,20.3>
+Portugal:Meticillin:<53.8,46.8,47.4,46.8>
+Portugal:Piperacillin+Tazobactam:<19.8,24.1,28.5,24.5>
+Portugal:Penicillin:<8.4,7.6,10.2,11.2>
+Portugal:Fluoroquinolones, Aminoglycosides and Carbapenems:<64.3,56.3,39.2,45.0>
+Portugal:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<9.2,8.1,8.2,7.6,25.1,21.7,22.8,25.0>
+Portugal:Carbapenems:<79.2,69.0,53.1,57.7,0.1,0.1,1.0,0.1,0.7,1.8,1.8,3.4,20.4,20.6,22.5,19.8>
+Portugal:Aminopenicillins:<59.4,59.4,58.9,57.8>
+Portugal:Ceftazidime:<15.3,15.5,22.0,19.2>
+Iceland:Fluoroquinolones:<1.0,1.0,1.0,1.0,9.7,14.7,7.8,6.8,7.1,0.0,3.6,2.9,10.0,0.0,0.0,8.3>
+Iceland:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<10.0,0.0,0.0,0.0>
+Iceland:Macrolides:<7.4,16.7,12.5,12.0>
+Iceland:Third-Generation Cephalosporins:<5.1,5.0,3.3,1.7,21.4,0.0,0.0,0.0>
+Iceland:Gentamicin:<11.8,33.3,8.3,14.3>
+Iceland:Penicillins and Macrolides:<3.8,16.7,8.3,8.0>
+Iceland:Aminoglycosides:<1.0,1.0,1.0,1.0,3.6,4.1,5.3,2.9,0.0,0.0,3.6,0.0,0.0,0.0,0.0,0.0>
+Iceland:Vancomycin:<0.0,5.9,0.0,0.0>
+Iceland:Meticillin:<1.7,0.0,3.3,0.0>
+Iceland:Piperacillin+Tazobactam:<10.0,0.0,9.1,0.0>
+Iceland:Penicillin:<3.7,16.7,8.0,24.0>
+Iceland:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,1.0,1.0>
+Iceland:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.5,0.9,1.4,0.0,0.0,0.0,0.0,0.0>
+Iceland:Carbapenems:<1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,9.1,9.1,0.0>
+Iceland:Aminopenicillins:<44.3,46.3,43.0,44.5>
+Iceland:Ceftazidime:<10.0,0.0,9.1,0.0>
+Malta:Fluoroquinolones:<1.0,1.0,30.0,13.3,31.9,29.8,29.0,38.8,26.3,27.5,33.7,26.1,0.0,8.0,5.3,12.0>
+Malta:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<0.0,8.0,7.9,12.0>
+Malta:Macrolides:<50.0,1.0,1.0,40.0>
+Malta:Third-Generation Cephalosporins:<13.9,8.9,10.8,11.2,26.3,27.5,29.7,16.3>
+Malta:Gentamicin:<40.0,29.0,25.0,27.6>
+Malta:Penicillins and Macrolides:<38.9,1.0,1.0,25.0>
+Malta:Aminoglycosides:<1.0,1.0,30.0,13.3,13.0,9.3,10.4,11.6,26.3,26.1,29.7,22.8,6.5,0.0,13.2,16.0>
+Malta:Vancomycin:<1.0,0.0,0.0,1.0>
+Malta:Meticillin:<47.1,51.8,42.7,48.3>
+Malta:Piperacillin+Tazobactam:<9.7,20.8,10.5,16.0>
+Malta:Penicillin:<38.9,1.0,37.5,35.0>
+Malta:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,10.0,6.7>
+Malta:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<7.4,5.2,6.8,7.0,19.3,20.3,26.7,15.2>
+Malta:Carbapenems:<1.0,1.0,10.0,13.3,1.0,0.0,0.0,0.0,3.5,5.8,9.9,5.4,3.2,16.0,15.8,16.0>
+Malta:Aminopenicillins:<54.6,54.8,53.4,55.0>
+Malta:Ceftazidime:<6.5,8.0,5.3,8.0>
+Greece:Fluoroquinolones:<93.1,95.0,95.3,94.9,29.1,30.9,32.8,30.6,69.7,67.6,67.6,66.4,44.3,43.5,37.7,34.1>
+Greece:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<39.8,39.1,36.1,28.4>
+Greece:Third-Generation Cephalosporins:<16.2,17.2,21.0,19.8,70.9,70.1,72.5,69.5>
+Greece:Gentamicin:<28.3,23.5,20.1,13.3>
+Greece:Aminoglycosides:<78.1,82.0,83.9,83.7,17.8,16.9,15.6,16.1,59.9,55.2,59.3,50.7,38.7,38.7,35.8,26.4>
+Greece:Vancomycin:<17.2,21.2,26.9,19.7>
+Greece:Meticillin:<41.0,40.3,37.1,39.4>
+Greece:Piperacillin+Tazobactam:<34.3,29.9,31.4,22.3>
+Greece:Fluoroquinolones, Aminoglycosides and Carbapenems:<74.5,79.6,82.6,82.2>
+Greece:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<10.7,10.3,10.7,10.7,57.0,51.5,55.1,46.7>
+Greece:Carbapenems:<87.8,90.6,93.2,93.5,1.4,1.4,1.2,1.2,60.5,59.4,62.3,61.9,47.7,49.3,42.9,40.4>
+Greece:Aminopenicillins:<55.0,56.4,55.7,56.1>
+Greece:Ceftazidime:<31.0,27.9,26.7,19.4>
+Sweden:Fluoroquinolones:<1.0,5.4,11.5,3.8,11.1,11.6,11.3,12.6,3.7,3.9,4.1,4.5,6.7,6.0,7.7,4.7>
+Sweden:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<3.4,4.1,1.6,2.6>
+Sweden:Macrolides:<4.9,6.5,6.7,6.6>
+Sweden:Third-Generation Cephalosporins:<4.5,5.2,5.6,6.2,2.9,3.6,4.5,3.3>
+Sweden:Gentamicin:<14.8,16.4,15.8,12.6>
+Sweden:Penicillins and Macrolides:<3.1,3.2,4.2,3.7>
+Sweden:Aminoglycosides:<1.0,8.1,2.8,3.8,5.8,6.0,6.1,6.4,2.5,2.9,3.3,3.2,1.7,2.9,0.6,1.3>
+Sweden:Vancomycin:<0.0,0.0,0.4,0.0>
+Sweden:Meticillin:<0.7,1.0,1.0,0.8>
+Sweden:Piperacillin+Tazobactam:<5.9,7.3,4.7,5.8>
+Sweden:Penicillin:<5.1,6.8,7.9,6.8>
+Sweden:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,5.6,2.8,3.8>
+Sweden:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.8,2.0,2.0,2.5,1.4,1.7,1.4,1.9>
+Sweden:Carbapenems:<1.0,5.6,3.8,2.9,1.0,1.0,0.0,0.1,0.1,0.0,0.0,0.0,5.9,7.2,7.1,6.5>
+Sweden:Aminopenicillins:<28.3,34.1,1.0,34.1>
+Sweden:Ceftazidime:<6.4,6.8,5.5,4.5>
+Netherlands:Fluoroquinolones:<0.0,2.9,4.2,6.8,15.5,14.1,13.3,13.2,5.4,6.1,4.7,6.8,6.1,6.2,6.7,5.8>
+Netherlands:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<2.5,2.4,2.8,2.8>
+Netherlands:Macrolides:<4.4,4.8,4.3,3.9>
+Netherlands:Third-Generation Cephalosporins:<6.0,5.8,5.7,5.7,6.7,7.5,5.5,8.6>
+Netherlands:Gentamicin:<30.7,26.9,28.8,23.0>
+Netherlands:Penicillins and Macrolides:<0.8,0.4,1.2,0.9>
+Netherlands:Aminoglycosides:<1.7,4.5,5.5,10.8,7.2,6.2,6.3,6.0,6.3,6.1,3.9,5.7,4.0,2.9,2.9,2.8>
+Netherlands:Vancomycin:<0.0,0.5,1.1,1.4>
+Netherlands:Meticillin:<1.3,1.2,1.0,1.3>
+Netherlands:Piperacillin+Tazobactam:<5.2,6.6,8.1,6.5>
+Netherlands:Penicillin:<1.5,1.1,2.1,1.8>
+Netherlands:Fluoroquinolones, Aminoglycosides and Carbapenems:<0.0,1.6,0.0,4.1>
+Netherlands:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.8,1.9,2.1,2.0,2.7,2.2,2.0,3.0>
+Netherlands:Carbapenems:<6.0,1.5,0.0,4.1,0.0,1.0,0.0,1.0,0.1,0.2,0.2,0.1,3.3,3.5,4.4,4.0>
+Netherlands:Aminopenicillins:<49.0,47.5,46.0,47.2>
+Netherlands:Ceftazidime:<2.8,3.8,4.9,4.4>
+Austria:Fluoroquinolones:<1.0,21.6,5.3,16.4,20.6,22.0,19.8,20.0,15.4,15.8,10.4,11.7,14.4,15.2,10.9,10.3>
+Austria:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<10.4,8.3,7.1,6.8>
+Austria:Macrolides:<17.9,10.2,10.5,8.7>
+Austria:Third-Generation Cephalosporins:<8.7,9.8,9.4,9.7,11.8,10.7,8.2,8.4>
+Austria:Gentamicin:<29.2,31.4,37.1,33.7>
+Austria:Penicillins and Macrolides:<4.2,1.6,2.8,2.5>
+Austria:Aminoglycosides:<1.0,9.8,8.9,6.3,6.3,7.2,7.1,7.0,5.0,5.0,5.5,4.8,10.6,7.4,6.6,6.3>
+Austria:Vancomycin:<3.2,5.9,4.4,3.1>
+Austria:Meticillin:<7.7,9.2,7.8,7.5>
+Austria:Piperacillin+Tazobactam:<18.2,13.3,11.8,11.9>
+Austria:Penicillin:<5.2,2.1,5.3,5.6>
+Austria:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,5.9,2.7,4.9>
+Austria:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<2.3,3.1,2.6,2.9,4.0,3.6,3.2,3.3>
+Austria:Carbapenems:<1.0,7.8,6.4,9.4,0.1,1.0,1.0,1.0,0.8,1.2,0.6,0.8,14.6,12.3,12.7,12.2>
+Austria:Aminopenicillins:<50.6,51.3,50.4,49.9>
+Austria:Ceftazidime:<14.0,9.5,8.7,9.9>
+Latvia:Fluoroquinolones:<1.0,1.0,88.5,78.3,14.5,18.7,17.7,27.8,46.2,43.2,44.8,42.0,22.2,24.0,16.7,23.1>
+Latvia:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<11.1,24.0,11.1,15.4>
+Latvia:Macrolides:<4.7,1.5,4.1,6.9>
+Latvia:Third-Generation Cephalosporins:<13.0,14.0,10.9,17.9,62.8,66.3,52.9,47.0>
+Latvia:Gentamicin:<29.1,61.1,46.2,36.2>
+Latvia:Penicillins and Macrolides:<1.6,0.0,4.3,1.9>
+Latvia:Aminoglycosides:<1.0,1.0,69.2,59.0,11.7,5.2,8.3,14.1,51.3,48.9,43.2,43.4,22.2,20.0,5.6,9.1>
+Latvia:Vancomycin:<5.6,12.0,13.3,17.6>
+Latvia:Meticillin:<9.0,7.0,8.2,5.6>
+Latvia:Piperacillin+Tazobactam:<17.6,20.8,66.7,23.1>
+Latvia:Penicillin:<6.3,11.9,4.2,8.5>
+Latvia:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,61.5,46.7>
+Latvia:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<6.6,3.8,2.5,10.5,42.3,39.8,41.3,36.6>
+Latvia:Carbapenems:<1.0,1.0,78.8,68.9,1.0,0.0,0.0,0.0,0.0,0.0,1.7,0.0,11.1,28.0,16.7,15.4>
+Latvia:Aminopenicillins:<54.2,51.9,48.4,53.6>
+Latvia:Ceftazidime:<22.2,24.0,66.7,23.1>
+Ireland:Fluoroquinolones:<1.0,1.1,4.7,4.8,24.3,24.2,24.5,23.1,7.4,14.6,13.5,17.0,14.9,12.2,8.4,9.8>
+Ireland:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<10.2,7.3,5.6,5.1>
+Ireland:Macrolides:<16.9,18.0,13.9,15.5>
+Ireland:Third-Generation Cephalosporins:<9.2,10.6,10.7,11.4,9.5,19.3,11.6,14.7>
+Ireland:Gentamicin:<32.6,32.1,31.4,28.0>
+Ireland:Penicillins and Macrolides:<12.4,13.1,11.4,10.8>
+Ireland:Aminoglycosides:<1.0,1.1,2.2,3.8,10.7,11.2,12.1,11.8,9.2,17.4,12.1,15.9,9.8,10.7,5.6,4.1>
+Ireland:Vancomycin:<44.0,42.7,45.1,45.8>
+Ireland:Meticillin:<22.6,19.9,19.4,18.1>
+Ireland:Piperacillin+Tazobactam:<16.2,11.4,11.2,9.2>
+Ireland:Penicillin:<19.1,20.3,17.7,17.5>
+Ireland:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,0.0,1.3,1.3>
+Ireland:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<3.6,4.7,4.7,5.4,3.4,7.9,7.4,7.2>
+Ireland:Carbapenems:<1.0,2.4,1.3,6.0,0.0,1.0,1.0,1.0,0.0,0.3,0.6,0.5,11.3,9.3,8.5,9.2>
+Ireland:Aminopenicillins:<67.4,69.4,68.7,66.2>
+Ireland:Ceftazidime:<14.3,7.8,8.0,7.2>
+Luxembourg:Fluoroquinolones:<1.0,1.0,1.0,1.0,24.0,27.8,24.7,24.2,32.0,22.6,31.8,20.0,19.4,20.6,9.8,17.9>
+Luxembourg:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<6.5,5.9,4.9,3.6>
+Luxembourg:Macrolides:<15.8,26.5,14.3,0.0>
+Luxembourg:Third-Generation Cephalosporins:<11.4,10.6,12.0,12.7,34.0,34.0,34.8,28.3>
+Luxembourg:Gentamicin:<22.2,27.8,30.8,14.3>
+Luxembourg:Penicillins and Macrolides:<3.3,11.4,6.3,0.0>
+Luxembourg:Aminoglycosides:<1.0,1.0,1.0,1.0,6.3,7.0,7.9,8.9,26.0,28.3,19.7,15.0,6.5,23.5,7.7,3.6>
+Luxembourg:Vancomycin:<0.0,5.3,3.2,0.0>
+Luxembourg:Meticillin:<15.3,8.9,12.0,8.9>
+Luxembourg:Piperacillin+Tazobactam:<16.1,11.8,10.8,0.0>
+Luxembourg:Penicillin:<3.2,15.9,6.3,3.7>
+Luxembourg:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,1.0,1.0>
+Luxembourg:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<2.7,2.1,3.8,5.2,20.0,17.0,16.7,13.3>
+Luxembourg:Carbapenems:<1.0,1.0,1.0,1.0,1.0,0.0,0.3,0.0,0.0,1.9,1.5,0.0,6.5,17.6,4.8,8.3>
+Luxembourg:Aminopenicillins:<50.7,54.5,59.6,60.2>
+Luxembourg:Ceftazidime:<3.2,11.8,2.4,7.1>
+Poland:Fluoroquinolones:<78.0,81.4,82.7,88.1,29.3,27.3,29.2,27.9,60.2,70.1,67.9,63.9,26.7,29.4,35.3,36.2>
+Poland:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<21.5,14.4,26.7,29.6>
+Poland:Macrolides:<27.3,31.7,29.8,31.1>
+Poland:Third-Generation Cephalosporins:<12.9,10.9,10.5,11.9,60.5,65.2,68.2,64.2>
+Poland:Gentamicin:<45.9,45.1,43.9,46.4>
+Poland:Penicillins and Macrolides:<16.4,24.5,24.4,19.5>
+Poland:Aminoglycosides:<70.1,73.3,58.5,70.2,12.1,10.7,9.8,11.2,53.6,60.4,59.1,58.6,27.3,23.7,31.9,30.6>
+Poland:Vancomycin:<8.3,12.7,21.4,17.7>
+Poland:Meticillin:<25.4,16.0,20.6,15.8>
+Poland:Piperacillin+Tazobactam:<30.0,31.6,32.4,37.8>
+Poland:Penicillin:<23.1,32.3,29.2,24.4>
+Poland:Fluoroquinolones, Aminoglycosides and Carbapenems:<36.9,46.2,38.0,54.6>
+Poland:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<6.1,5.0,5.6,6.1,50.3,54.3,54.6,54.0>
+Poland:Carbapenems:<38.2,49.7,53.4,65.6,0.0,0.0,0.2,0.1,0.8,0.8,1.3,0.5,22.7,32.3,27.6,37.0>
+Poland:Aminopenicillins:<63.3,65.3,59.7,64.7>
+Poland:Ceftazidime:<22.7,22.4,21.9,27.8>
+CzechRepublic:Fluoroquinolones:<1.0,19.8,15.3,18.3,21.0,20.8,21.6,22.6,50.4,47.7,48.0,48.9,30.9,33.7,32.7,30.0>
+CzechRepublic:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<21.3,23.3,20.2,19.0>
+CzechRepublic:Macrolides:<7.7,8.7,7.7,6.7>
+CzechRepublic:Third-Generation Cephalosporins:<11.5,13.1,14.0,14.5,51.2,52.0,52.9,54.1>
+CzechRepublic:Gentamicin:<41.7,40.0,38.7,38.8>
+CzechRepublic:Penicillins and Macrolides:<1.8,1.2,3.3,1.8>
+CzechRepublic:Aminoglycosides:<1.0,15.4,10.2,15.0,8.2,9.1,10.7,11.3,54.4,51.0,50.7,51.9,22.7,25.8,20.6,21.3>
+CzechRepublic:Vancomycin:<11.5,9.0,4.4,9.6>
+CzechRepublic:Meticillin:<13.0,13.2,13.0,13.7>
+CzechRepublic:Piperacillin+Tazobactam:<26.4,27.5,23.1,25.3>
+CzechRepublic:Penicillin:<2.9,2.1,5.8,3.2>
+CzechRepublic:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,4.4,5.1,5.0>
+CzechRepublic:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<4.3,4.9,6.4,6.9,41.8,38.3,38.7,41.5>
+CzechRepublic:Carbapenems:<1.0,4.4,5.1,6.7,0.1,0.0,0.0,0.0,0.3,0.5,0.1,0.3,15.1,15.7,14.1,10.6>
+CzechRepublic:Aminopenicillins:<56.8,54.9,54.4,54.3>
+CzechRepublic:Ceftazidime:<20.4,22.9,21.5,19.6>
+Slovenia:Fluoroquinolones:<28.0,28.0,41.2,58.1,21.4,19.9,23.3,24.6,33.1,32.7,32.6,24.5,14.9,11.3,22.3,14.2>
+Slovenia:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<7.5,11.3,18.8,7.1>
+Slovenia:Macrolides:<21.2,10.4,19.3,18.9>
+Slovenia:Third-Generation Cephalosporins:<9.5,8.7,12.7,13.7,28.3,29.0,26.6,22.8>
+Slovenia:Gentamicin:<34.9,32.2,36.1,32.3>
+Slovenia:Penicillins and Macrolides:<4.8,2.9,4.7,5.0>
+Slovenia:Aminoglycosides:<20.0,16.0,32.4,41.9,8.4,9.3,11.3,12.9,20.5,20.0,20.2,19.0,6.7,6.0,8.9,9.2>
+Slovenia:Vancomycin:<0.0,1.0,1.7,4.8>
+Slovenia:Meticillin:<10.3,9.0,13.1,9.2>
+Slovenia:Piperacillin+Tazobactam:<7.5,13.5,25.9,9.9>
+Slovenia:Penicillin:<10.0,7.9,9.7,9.0>
+Slovenia:Fluoroquinolones, Aminoglycosides and Carbapenems:<12.0,16.0,20.6,35.5>
+Slovenia:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<5.0,4.5,7.1,8.1,17.3,15.9,18.9,16.9>
+Slovenia:Carbapenems:<24.0,24.0,26.5,38.7,0.0,0.1,0.0,0.0,0.4,0.4,0.9,1.3,21.6,25.6,31.3,15.6>
+Slovenia:Aminopenicillins:<50.4,51.5,52.6,54.8>
+Slovenia:Ceftazidime:<6.7,13.5,20.5,9.9>
+France:Fluoroquinolones:<15.6,13.6,11.9,13.5,17.8,16.7,17.6,17.7,24.4,29.4,31.0,30.7,22.2,21.2,20.6,19.1>
+France:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<14.7,12.5,13.2,12.0>
+France:Macrolides:<28.9,29.8,23.0,24.4>
+France:Third-Generation Cephalosporins:<10.0,9.5,9.9,11.0,22.6,28.0,29.6,30.5>
+France:Gentamicin:<16.7,14.7,13.7,12.2>
+France:Penicillins and Macrolides:<17.2,18.9,15.9,17.4>
+France:Aminoglycosides:<12.9,11.2,8.3,11.1,8.1,7.8,7.7,8.2,23.2,26.6,27.7,26.3,20.0,16.0,15.7,12.8>
+France:Vancomycin:<0.8,0.1,0.5,0.8>
+France:Meticillin:<19.2,17.1,17.4,15.7>
+France:Piperacillin+Tazobactam:<19.9,15.4,17.0,16.1>
+France:Penicillin:<23.4,22.4,22.3,22.9>
+France:Fluoroquinolones, Aminoglycosides and Carbapenems:<4.0,4.1,1.5,5.2>
+France:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<3.3,3.2,3.5,3.9,19.2,22.9,23.7,22.5>
+France:Carbapenems:<3.3,5.9,2.5,5.6,0.0,0.1,1.0,1.0,0.5,0.7,0.5,0.5,18.0,17.2,18.7,16.4>
+France:Aminopenicillins:<55.2,55.1,55.9,57.0>
+France:Ceftazidime:<14.1,11.5,12.0,11.6>
+Bulgaria:Fluoroquinolones:<69.2,70.2,73.9,78.6,34.1,37.4,38.6,35.3,47.2,45.7,50.3,37.5,32.7,18.3,27.1,36.4>
+Bulgaria:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<30.8,8.3,29.2,29.1>
+Bulgaria:Macrolides:<20.0,18.5,26.7,21.2>
+Bulgaria:Third-Generation Cephalosporins:<38.1,39.6,40.4,38.5,74.8,69.6,74.8,75.0>
+Bulgaria:Gentamicin:<38.5,47.1,40.0,42.0>
+Bulgaria:Penicillins and Macrolides:<20.0,7.7,10.0,12.5>
+Bulgaria:Aminoglycosides:<58.5,58.2,60.9,74.1,26.5,31.0,29.1,19.8,54.0,50.8,65.7,59.5,29.4,20.0,31.8,27.7>
+Bulgaria:Vancomycin:<0.0,2.3,13.3,14.6>
+Bulgaria:Meticillin:<19.8,19.2,20.8,13.1>
+Bulgaria:Piperacillin+Tazobactam:<26.0,13.6,31.3,27.3>
+Bulgaria:Penicillin:<28.6,21.4,25.0,22.9>
+Bulgaria:Fluoroquinolones, Aminoglycosides and Carbapenems:<32.8,39.5,47.1,66.1>
+Bulgaria:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<16.0,18.7,20.2,12.6,36.5,35.6,44.1,28.6>
+Bulgaria:Carbapenems:<60.3,59.6,59.1,73.8,2.6,2.8,0.5,0.0,1.9,0.0,7.2,3.2,31.4,13.6,29.2,25.5>
+Bulgaria:Aminopenicillins:<71.0,74.4,73.0,66.4>
+Bulgaria:Ceftazidime:<34.6,12.5,29.8,26.9>
+Lithuania:Fluoroquinolones:<1.0,1.0,84.8,93.2,14.7,15.9,12.8,20.6,55.4,45.1,45.5,45.8,10.7,10.8,25.8,26.8>
+Lithuania:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<14.3,8.1,25.8,24.4>
+Lithuania:Macrolides:<25.7,25.0,22.6,12.5>
+Lithuania:Third-Generation Cephalosporins:<4.8,7.6,8.1,16.0,64.0,44.1,52.6,51.7>
+Lithuania:Gentamicin:<50.8,54.5,29.2,44.4>
+Lithuania:Penicillins and Macrolides:<14.3,14.3,16.1,11.1>
+Lithuania:Aminoglycosides:<1.0,1.0,80.0,90.4,9.6,10.7,10.6,10.1,63.8,47.6,49.3,46.4,14.3,13.5,26.7,24.4>
+Lithuania:Vancomycin:<5.4,0.0,4.5,17.3>
+Lithuania:Meticillin:<10.2,9.7,7.8,8.5>
+Lithuania:Piperacillin+Tazobactam:<10.7,8.6,32.3,29.3>
+Lithuania:Penicillin:<16.2,23.7,16.4,16.1>
+Lithuania:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,60.0,76.7>
+Lithuania:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.3,1.9,2.6,4.3,52.2,33.3,35.5,39.9>
+Lithuania:Carbapenems:<1.0,1.0,69.7,80.8,1.0,0.0,0.0,0.0,0.0,0.0,1.3,0.0,17.9,18.9,29.0,26.8>
+Lithuania:Aminopenicillins:<52.5,54.1,57.8,59.6>
+Lithuania:Ceftazidime:<7.1,8.1,16.7,19.5>
+Croatia:Fluoroquinolones:<1.0,92.9,92.1,92.3,17.0,20.2,20.1,24.0,42.9,43.2,44.8,48.7,25.3,21.7,30.0,35.2>
+Croatia:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<23.4,18.4,31.5,28.0>
+Croatia:Macrolides:<28.9,32.8,27.7,18.4>
+Croatia:Third-Generation Cephalosporins:<7.6,8.8,10.8,12.5,52.1,50.0,47.9,46.8>
+Croatia:Gentamicin:<37.5,34.7,32.9,35.5>
+Croatia:Penicillins and Macrolides:<16.5,15.5,10.3,7.9>
+Croatia:Aminoglycosides:<1.0,84.1,82.5,88.3,7.0,7.7,10.9,12.7,46.1,50.8,48.8,43.2,28.1,23.8,35.1,34.0>
+Croatia:Vancomycin:<0.0,6.8,10.4,25.8>
+Croatia:Meticillin:<21.3,24.0,21.3,24.5>
+Croatia:Piperacillin+Tazobactam:<24.2,23.6,24.5,24.5>
+Croatia:Penicillin:<22.7,25.9,26.4,19.4>
+Croatia:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,78.4,80.9,87.0>
+Croatia:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<2.7,3.5,6.0,6.9,30.8,30.0,30.6,32.4>
+Croatia:Carbapenems:<1.0,89.5,87.3,89.0,0.0,0.0,0.0,0.0,0.0,0.5,0.9,2.4,29.2,25.3,35.3,38.5>
+Croatia:Aminopenicillins:<51.4,53.7,54.0,55.3>
+Croatia:Ceftazidime:<13.2,18.8,24.2,18.5>
+Romania:Fluoroquinolones:<88.9,90.5,83.7,82.5,29.0,31.0,31.3,30.7,50.0,51.6,66.5,61.4,53.3,45.2,55.4,62.0>
+Romania:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<48.9,50.0,59.6,63.0>
+Romania:Macrolides:<39.5,38.1,48.0,30.0>
+Romania:Third-Generation Cephalosporins:<25.1,22.8,29.4,26.8,60.8,67.3,73.8,70.7>
+Romania:Gentamicin:<56.9,58.8,76.5,1.0>
+Romania:Penicillins and Macrolides:<32.6,21.4,37.8,25.0>
+Romania:Aminoglycosides:<57.4,80.3,77.0,80.9,24.3,14.8,17.2,18.3,54.5,57.3,67.6,54.1,51.1,51.3,63.4,63.3>
+Romania:Vancomycin:<2.9,11.1,25.0,25.0>
+Romania:Meticillin:<53.3,64.5,56.0,57.2>
+Romania:Piperacillin+Tazobactam:<50.0,55.0,62.2,59.0>
+Romania:Penicillin:<38.6,25.0,46.7,39.0>
+Romania:Fluoroquinolones, Aminoglycosides and Carbapenems:<50.0,74.5,76.9,76.9>
+Romania:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<15.6,9.2,14.4,13.5,42.3,42.9,56.3,49.8>
+Romania:Carbapenems:<81.5,85.4,81.3,81.5,0.0,0.0,0.7,1.9,13.7,20.5,31.5,24.7,57.8,60.5,58.5,66.3>
+Romania:Aminopenicillins:<58.9,67.4,68.0,73.0>
+Romania:Ceftazidime:<51.3,43.8,59.1,65.9>
+Hungary:Fluoroquinolones:<78.0,73.5,66.4,68.1,28.9,30.3,28.4,29.0,41.6,37.7,34.9,36.7,22.3,23.4,24.6,24.7>
+Hungary:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<17.6,18.7,21.7,20.9>
+Hungary:Macrolides:<19.7,14.4,14.6,11.2>
+Hungary:Third-Generation Cephalosporins:<17.4,18.9,16.4,16.7,43.0,37.3,35.6,37.2>
+Hungary:Gentamicin:<56.2,51.7,49.8,45.5>
+Hungary:Penicillins and Macrolides:<7.5,3.6,7.3,1.8>
+Hungary:Aminoglycosides:<68.8,63.2,59.5,60.6,17.1,17.0,14.7,13.6,41.5,37.0,31.8,34.6,26.4,24.8,21.1,20.5>
+Hungary:Vancomycin:<3.5,7.1,8.5,16.7>
+Hungary:Meticillin:<24.8,24.0,23.1,24.7>
+Hungary:Piperacillin+Tazobactam:<19.2,19.8,23.5,26.9>
+Hungary:Penicillin:<10.0,5.8,11.7,7.2>
+Hungary:Fluoroquinolones, Aminoglycosides and Carbapenems:<41.6,42.8,38.4,51.7>
+Hungary:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<10.6,11.0,8.2,6.7,37.9,32.2,28.6,30.2>
+Hungary:Carbapenems:<48.1,50.1,44.5,55.2,0.0,0.1,0.0,0.0,2.9,1.7,1.1,0.1,27.5,30.2,33.5,35.8>
+Hungary:Aminopenicillins:<63.9,60.9,59.1,60.6>
+Hungary:Ceftazidime:<18.1,20.8,24.1,24.2>
+Spain:Fluoroquinolones:<1.0,72.4,67.1,64.2,33.9,34.9,34.0,31.6,16.5,21.8,18.6,21.6,21.0,22.7,24.6,23.0>
+Spain:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<10.8,12.2,12.4,14.2>
+Spain:Macrolides:<26.4,25.7,20.0,23.5>
+Spain:Third-Generation Cephalosporins:<13.5,13.3,12.3,11.6,16.7,19.8,18.0,20.3>
+Spain:Gentamicin:<38.3,42.6,38.9,40.0>
+Spain:Penicillins and Macrolides:<15.1,16.0,12.2,12.0>
+Spain:Aminoglycosides:<1.0,68.8,58.8,49.0,15.6,15.3,15.1,14.7,14.1,15.9,13.8,16.0,16.3,14.9,16.5,16.4>
+Spain:Vancomycin:<1.5,0.9,2.4,2.5>
+Spain:Meticillin:<24.2,22.6,22.1,25.3>
+Spain:Piperacillin+Tazobactam:<6.7,8.6,7.8,9.1>
+Spain:Penicillin:<27.0,30.1,27.9,23.5>
+Spain:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,66.2,55.1,41.5>
+Spain:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<5.8,5.8,5.3,5.5,8.9,11.2,10.1,11.7>
+Spain:Carbapenems:<1.0,75.8,65.4,53.7,0.1,0.7,0.1,1.0,0.8,1.6,2.3,2.2,16.4,17.6,18.5,22.7>
+Spain:Aminopenicillins:<65.4,65.1,64.9,63.9>
+Spain:Ceftazidime:<8.9,9.0,9.6,10.4>
+Belgium:Fluoroquinolones:<1.0,1.0,1.0,0.0,22.2,23.0,26.7,26.6,17.3,22.2,18.2,22.7,18.2,16.9,12.6,11.1>
+Belgium:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<9.0,10.9,8.4,4.6>
+Belgium:Macrolides:<25.4,22.9,17.9,18.7>
+Belgium:Third-Generation Cephalosporins:<6.9,8.0,9.7,9.7,16.5,15.3,16.3,19.7>
+Belgium:Gentamicin:<24.6,27.6,22.9,13.3>
+Belgium:Penicillins and Macrolides:<1.2,0.9,0.7,0.4>
+Belgium:Aminoglycosides:<1.0,1.0,1.0,0.0,7.3,7.3,8.9,8.4,11.6,11.9,10.9,11.6,11.2,12.3,8.5,6.0>
+Belgium:Vancomycin:<1.4,1.7,3.1,0.6>
+Belgium:Meticillin:<16.6,16.9,13.5,12.3>
+Belgium:Piperacillin+Tazobactam:<9.6,13.2,9.5,8.0>
+Belgium:Penicillin:<1.5,1.7,1.3,0.6>
+Belgium:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,1.0,0.0>
+Belgium:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<2.0,2.7,3.9,3.5,8.5,8.2,7.9,9.3>
+Belgium:Carbapenems:<1.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.7,0.3,0.5,0.5,9.7,11.0,10.2,3.9>
+Belgium:Aminopenicillins:<56.3,56.8,58.9,58.0>
+Belgium:Ceftazidime:<8.3,9.4,8.9,6.2>
+Norway:Fluoroquinolones:<0.0,0.0,5.9,9.4,11.3,10.9,11.0,10.2,4.0,4.9,6.2,5.0,5.7,8.8,3.1,5.2>
+Norway:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<3.3,3.4,1.6,1.3>
+Norway:Macrolides:<5.3,4.4,7.5,10.7>
+Norway:Third-Generation Cephalosporins:<4.9,5.5,5.8,6.0,3.2,4.0,5.9,5.0>
+Norway:Gentamicin:<30.1,26.8,20.7,9.8>
+Norway:Penicillins and Macrolides:<3.2,1.4,2.2,2.5>
+Norway:Aminoglycosides:<4.0,2.8,3.0,9.4,5.8,6.4,5.9,6.0,2.4,2.3,4.8,3.6,2.0,1.5,1.3,0.9>
+Norway:Vancomycin:<0.6,2.4,1.8,0.0>
+Norway:Meticillin:<1.3,0.7,1.0,1.2>
+Norway:Piperacillin+Tazobactam:<7.1,9.1,7.9,5.7>
+Norway:Penicillin:<5.9,3.3,5.1,5.4>
+Norway:Fluoroquinolones, Aminoglycosides and Carbapenems:<0.0,0.0,3.0,9.4>
+Norway:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.9,2.5,2.0,1.9,1.5,1.8,3.9,2.3>
+Norway:Carbapenems:<0.0,0.0,2.9,9.4,0.0,0.1,0.0,1.0,0.5,0.2,0.0,0.1,6.7,5.8,5.9,5.7>
+Norway:Aminopenicillins:<43.2,43.0,41.8,45.8>
+Norway:Ceftazidime:<6.4,6.2,5.2,5.6>
+UnitedKingdom:Fluoroquinolones:<2.9,3.6,11.4,7.2,16.6,16.3,16.8,15.6,7.4,8.7,7.7,13.3,4.8,5.8,5.4,8.8>
+UnitedKingdom:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<1.7,2.4,1.6,3.8>
+UnitedKingdom:Macrolides:<6.8,7.5,7.1,7.2>
+UnitedKingdom:Third-Generation Cephalosporins:<13.1,14.7,10.3,11.3,11.8,13.6,9.3,10.5>
+UnitedKingdom:Gentamicin:<29.6,30.9,1.0,1.0>
+UnitedKingdom:Penicillins and Macrolides:<3.3,3.1,2.9,2.7>
+UnitedKingdom:Aminoglycosides:<2.8,2.5,10.1,2.0,8.6,9.0,8.9,9.9,6.1,6.4,5.5,9.3,2.2,2.4,1.7,5.2>
+UnitedKingdom:Vancomycin:<13.3,23.3,21.3,17.0>
+UnitedKingdom:Meticillin:<14.0,13.7,11.3,10.8>
+UnitedKingdom:Piperacillin+Tazobactam:<3.1,4.8,4.8,10.3>
+UnitedKingdom:Penicillin:<4.9,4.9,5.1,7.8>
+UnitedKingdom:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.3,1.3,1.7,0.0>
+UnitedKingdom:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<4.2,4.4,4.4,4.5,2.3,4.8,3.1,4.2>
+UnitedKingdom:Carbapenems:<2.5,2.0,1.7,0.8,0.2,1.0,0.1,0.3,0.5,0.5,0.8,0.4,6.3,5.2,6.3,2.4>
+UnitedKingdom:Aminopenicillins:<62.7,63.1,62.7,65.8>
+UnitedKingdom:Ceftazidime:<3.9,3.7,4.6,6.1>
+Finland:Fluoroquinolones:<1.0,2.8,6.5,2.3,11.7,13.2,11.0,11.2,2.1,2.6,4.6,3.3,8.0,11.4,10.0,8.9>
+Finland:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<4.6,4.6,3.9,4.7>
+Finland:Macrolides:<22.0,18.6,14.5,14.4>
+Finland:Third-Generation Cephalosporins:<6.2,7.1,5.4,6.1,1.7,2.2,2.4,3.0>
+Finland:Gentamicin:<1.0,1.0,1.0,1.0>
+Finland:Penicillins and Macrolides:<10.7,7.7,6.5,7.0>
+Finland:Aminoglycosides:<1.0,0.0,3.2,2.4,6.1,6.5,4.6,5.4,0.4,1.7,2.3,1.9,2.5,3.1,2.3,1.8>
+Finland:Vancomycin:<0.7,0.3,0.0,0.3>
+Finland:Meticillin:<2.1,1.8,2.6,1.9>
+Finland:Piperacillin+Tazobactam:<7.6,8.6,6.9,7.2>
+Finland:Penicillin:<17.0,13.9,12.5,12.7>
+Finland:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,0.0,0.0,2.4>
+Finland:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<3.1,3.2,2.2,2.6,0.2,0.4,1.4,1.1>
+Finland:Carbapenems:<1.0,0.0,3.1,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.1,10.4,7.2,4.7>
+Finland:Aminopenicillins:<39.7,37.3,34.7,36.0>
+Finland:Ceftazidime:<5.0,5.0,6.2,6.9>
+Denmark:Fluoroquinolones:<12.0,6.3,2.9,5.9,14.1,12.4,12.3,11.9,8.8,8.9,6.9,5.3,4.1,3.2,3.6,5.0>
+Denmark:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<1.8,1.7,1.5,2.3>
+Denmark:Macrolides:<6.0,4.8,6.6,5.2>
+Denmark:Third-Generation Cephalosporins:<7.9,8.1,7.0,7.5,10.5,11.5,7.6,7.8>
+Denmark:Gentamicin:<27.7,27.1,30.0,25.4>
+Denmark:Penicillins and Macrolides:<3.5,4.2,3.9,2.4>
+Denmark:Aminoglycosides:<10.4,1.3,1.7,4.8,7.3,6.5,7.3,6.8,6.0,4.4,4.9,2.6,3.8,4.9,2.3,2.3>
+Denmark:Vancomycin:<2.0,3.4,4.5,3.2>
+Denmark:Meticillin:<1.3,1.7,2.5,1.6>
+Denmark:Piperacillin+Tazobactam:<4.6,2.4,4.4,4.1>
+Denmark:Penicillin:<5.1,6.6,5.6,4.7>
+Denmark:Fluoroquinolones, Aminoglycosides and Carbapenems:<8.6,1.8,0.0,3.3>
+Denmark:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<2.6,2.2,1.9,2.5,3.1,3.5,3.1,1.1>
+Denmark:Carbapenems:<9.4,1.6,1.6,4.6,0.0,1.0,1.0,1.0,0.3,0.2,0.2,0.0,3.7,2.9,4.7,4.6>
+Denmark:Aminopenicillins:<45.2,46.3,44.9,45.3>
+Denmark:Ceftazidime:<4.9,3.1,3.9,3.6>
+Italy:Fluoroquinolones:<86.0,83.1,92.1,81.6,42.1,42.2,43.9,44.4,49.9,54.4,55.7,53.7,31.4,28.7,28.3,24.6>
+Italy:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<23.7,24.3,22.9,20.0>
+Italy:Macrolides:<34.2,24.6,28.6,24.5>
+Italy:Third-Generation Cephalosporins:<26.3,26.2,28.7,30.1,47.9,55.1,56.5,55.9>
+Italy:Gentamicin:<50.8,46.2,55.2,47.8>
+Italy:Penicillins and Macrolides:<10.3,8.1,11.0,5.8>
+Italy:Aminoglycosides:<83.3,81.8,88.3,74.7,22.3,19.0,19.4,20.2,37.0,32.5,36.2,34.0,29.9,24.7,23.2,17.2>
+Italy:Vancomycin:<6.0,4.4,8.5,11.2>
+Italy:Meticillin:<35.2,35.8,33.6,34.1>
+Italy:Piperacillin+Tazobactam:<30.1,30.9,31.5,29.5>
+Italy:Penicillin:<12.1,14.6,15.3,12.3>
+Italy:Fluoroquinolones, Aminoglycosides and Carbapenems:<77.4,78.8,86.3,72.6>
+Italy:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<14.3,12.5,13.7,14.6,33.9,29.6,32.0,29.7>
+Italy:Carbapenems:<83.1,79.5,89.9,78.3,0.3,0.6,0.2,0.2,29.1,34.3,32.9,33.5,25.1,25.9,25.1,23.0>
+Italy:Aminopenicillins:<67.5,65.7,65.4,67.4>
+Italy:Ceftazidime:<25.5,23.7,24.9,21.7>
+Germany:Fluoroquinolones:<8.3,9.7,6.0,8.6,21.1,22.1,20.6,19.5,13.7,15.1,12.7,9.6,19.6,16.4,13.0,14.4>
+Germany:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<8.4,9.2,8.9,8.2>
+Germany:Macrolides:<7.4,10.6,7.1,8.1>
+Germany:Third-Generation Cephalosporins:<8.8,10.7,10.5,10.4,13.0,16.1,12.7,10.1>
+Germany:Gentamicin:<35.6,39.7,33.6,31.1>
+Germany:Penicillins and Macrolides:<1.3,2.6,1.4,2.5>
+Germany:Aminoglycosides:<5.9,6.1,4.1,5.5,7.1,7.0,6.9,7.2,8.3,10.0,7.1,5.5,10.6,7.6,5.9,7.3>
+Germany:Vancomycin:<16.2,14.6,9.1,10.2>
+Germany:Meticillin:<15.4,12.8,12.9,11.2>
+Germany:Piperacillin+Tazobactam:<15.5,18.8,17.4,17.7>
+Germany:Penicillin:<5.2,6.9,4.4,6.2>
+Germany:Fluoroquinolones, Aminoglycosides and Carbapenems:<4.2,5.2,2.1,3.7>
+Germany:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<3.2,2.7,3.0,3.0,6.2,7.0,5.3,3.1>
+Germany:Carbapenems:<6.6,8.9,5.5,6.6,0.0,0.1,0.1,1.0,0.0,0.7,0.7,0.1,10.7,15.4,17.0,15.0>
+Germany:Aminopenicillins:<49.6,52.9,51.7,49.3>
+Germany:Ceftazidime:<9.6,10.2,9.9,9.1>
+Estonia:Fluoroquinolones:<1.0,1.0,1.0,1.0,14.1,11.8,12.3,15.2,17.2,26.7,21.8,33.9,15.6,25.0,10.3,0.0>
+Estonia:Resistance to Three or More Antimicrobial Groups Among Piperacillin+Tazobactam, Ceftazidime, Fluoroquinolones, Aminoglycosides and Carbapenems:<9.1,0.0,0.0,0.0>
+Estonia:Macrolides:<5.8,3.4,5.6,7.4>
+Estonia:Third-Generation Cephalosporins:<7.9,7.4,9.3,11.4,17.8,23.3,20.7,23.7>
+Estonia:Gentamicin:<42.1,20.0,36.8,26.9>
+Estonia:Penicillins and Macrolides:<0.0,0.0,1.9,3.7>
+Estonia:Aminoglycosides:<1.0,1.0,1.0,1.0,7.6,7.3,6.8,9.3,13.2,10.1,18.5,21.3,25.0,10.5,7.5,5.9>
+Estonia:Vancomycin:<0.0,0.0,0.0,0.0>
+Estonia:Meticillin:<7.7,3.5,3.1,4.0>
+Estonia:Piperacillin+Tazobactam:<16.1,11.8,10.3,6.3>
+Estonia:Penicillin:<0.0,1.3,4.2,2.8>
+Estonia:Fluoroquinolones, Aminoglycosides and Carbapenems:<1.0,1.0,1.0,1.0>
+Estonia:Fluoroquinolones, Third-Generation Cephalosporins and Aminoglycosides:<1.7,3.3,3.5,5.2,10.5,9.2,11.5,22.2>
+Estonia:Carbapenems:<1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.3,2.7,0.0,0.0,12.5,10.0,15.4,12.5>
+Estonia:Aminopenicillins:<48.1,46.4,47.1,47.4>
+Estonia:Ceftazidime:<17.2,0.0,7.1,14.3>
