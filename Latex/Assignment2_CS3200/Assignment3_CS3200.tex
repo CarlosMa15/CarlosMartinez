@@ -1,0 +1,277 @@
+\documentclass{report}
+
+\usepackage{pgfplots}
+\pgfplotsset{width=5.5in,compat=1.10}
+
+ \begin{document}
+ 
+ \begin{center}
+ \textbf{Assignment 2}
+\end{center}
+
+\begin{center}
+(1) (A) Generate an O(h2) (second-order) approximation to the first derivative of some function f(x) using 3 points, $X_0$, $X_1$ and $X_2$ using the polynomial interpolation approach. Give the finite difference formulas for each of the points $X_0$, $X_1$, and $X_2$. Assume they are equally spaced, with spacing h.
+\end{center}
+
+\begin{center}
+N = 2
+
+ $p(X) = \sum\limits_{k = 0}^N Y_kL_k(X)$
+\end{center}
+
+\begin{center}
+ $L_k(X) = \frac{\prod\limits_{i=1,j \neq k}^N (X - X_j)}{\prod\limits_{i=1, j \neq k}^N (X_k - X_j)}$
+\end{center}
+
+k = 0
+
+ \begin{center}
+ $\frac{d}{dx}$$\frac{(X - X_1)(X - X_2)}{(X_0 - X_1)(X_0 - X_2)}$ = $\frac{d}{dx}$$\frac{X^2 - XX_1 - XX_2 + X_1X_2}{(X_0 - X_1)(X_0 - X_2)}$ = $\frac{2X - X_1 - X_2}{(X_0 - X_1)(X_0 - X_2)}$ = $\frac{2X - X_1 - X_2}{2h^2}$
+\end{center}
+
+\begin{center}
+$\frac{(Y_0)(2X - X_1 - X_2)}{2h^2}$
+\end{center}
+
+k = 1
+
+\begin{center}
+$\frac{d}{dx}$$\frac{(X - X_0)(X - X_2)}{(X_1 - X_0)(X_1 - X_2)}$ = $\frac{d}{dx}$$\frac{X^2 - XX_0 - XX_2 + X_0X_2}{(X_1 - X_0)(X_1 - X_2)}$ = $\frac{2X - X_0 - X_2}{(X_1 - X_0)(X_1 - X_2)}$ = $\frac{2X - X_0 - X_2}{-h^2}$
+\end{center}
+
+\begin{center}
+$\frac{(Y1)(2X - X_0 - X_2)}{-h^2}$
+\end{center}
+
+k = 2
+
+\begin{center}
+$\frac{d}{dx}$$\frac{(X - X_0)(X - X_1)}{(X_2 - X_0)(X_2 - X_1)}$ = $\frac{d}{dx}$$\frac{X^2 - XX_0 - XX_1 + X_0X_1}{(X_2 - X_0)(X_2 - X_1)}$ = $\frac{2X - X_0 - X_1}{(X_2 - X_0)(X_2 - X_1)}$ = $\frac{2X - X_0 - X_1}{2h^2}$
+\end{center}
+
+\begin{center}
+$\frac{(Y2)(2X - X_0 - X_1)}{2h^2}$
+\end{center}
+
+\begin{center}
+Now Combine
+\end{center}
+
+\begin{center}
+$\frac{(Y_0)(2X - X_1 - X_2)}{2h^2}$ + $\frac{(Y1)(2X - X_0 - X_2)}{-h^2}$ + $\frac{(Y2)(2X - X_0 - X_1)}{2h^2}$
+\end{center}
+
+X = $X_0$
+
+\begin{center}
+$\frac{Y_0}{(X_0 - X_1)} + \frac{Y_0}{(X_0 - X_2)} - \frac{(Y_1*(X_0 - X_2))}{((X_0 - X_1)(X_1 - X_2))} + \frac{(Y_2*(X_0 - X_1))}{((X_0 - X_2)(X_1 - X_2))}$
+\end{center}
+
+\begin{center}
+$\frac{Y_0}{(-h)} + \frac{Y_0}{(-2h)} - \frac{(Y_1*(-2h))}{((-h)(-h))} + \frac{(Y_2*(-h))}{((-2h)(-h))}$
+\end{center}
+
+\begin{center}
+$\frac{2Y_1}{h} - \frac{3Y_0}{2h} - \frac{Y_2}{2h}$
+\end{center}
+
+X = $X_1$
+
+\begin{center}
+$\frac{Y_1}{(X_1 - X_2)} - \frac{Y_1}{(X_0 - X_1)} + \frac{(Y_0*(X_1 - X_2))}{((X_0 - X_1)*(X_0 - X_2))} - \frac{(Y_2*(X_0 - X_1))}{((X_0 - X_2)*(X_1 - X_2))}$
+\end{center}
+
+\begin{center}
+$\frac{Y_1}{(-h)} - \frac{Y_1}{(-h)} + \frac{(Y_0*(-h))}{((-h)*(-2h))} - \frac{(Y_2*(-h))}{((-2h)*(-h))}$
+\end{center}
+
+\begin{center}
+$\frac{y2}{(2*h)} - \frac{Y_0}{(2*h)}$
+\end{center}
+
+X = $X_2$
+
+\begin{center}
+$\frac{(Y_1*(X_0 - X_2))}{((X_0 - X_1)*(X_1 - X_2))} - \frac{Y_2}{(X_1 - X_2)} - \frac{(Y_0*(X_1 - X_2))}{((X_0 - X_1)*(X_0 - X_2))} - \frac{Y_2}{(X_0 - X_2)}$
+\end{center}
+
+\begin{center}
+$\frac{(Y_1*(-2h))}{((-h)*(-h))} - \frac{Y_2}{(-h)} - \frac{(Y_0*(-h))}{((-h)*(-2h))} - \frac{Y_2}{(-2h)}$
+\end{center}
+
+\begin{center}
+$\frac{Y_0}{(2*h)} - \frac{(2*Y_1)}{h} + \frac{(3*Y_2)}{(2*h)}$
+\end{center}
+
+\begin{center}
+$\newline$
+(1) (B) Using the error term for polynomial interpolation, show that the error above is O($h^2$)
+\end{center}
+
+\begin{center}
+$f(X) - p(X) = \frac{f^{N + 1}(\varepsilon)}{(N + 1)!} \prod\limits_{k = 0}^N (X - X_k)$
+\end{center}
+
+\begin{center}
+The left hand side is a constant so it can be ignored
+
+$= \frac{d}{dx}((X - X_0)(X - X_1)(X - X_2))$
+
+$= \frac{d}{dx}((X^2 - XX_1 - XX_0 + X_0X_1)(X - X_2))$
+
+$= \frac{d}{dx}(X^3-X^2X_2-X^2X_1+XX_1X_2-X^2X_0+XX_0X_2+XX_0X_1-X_0X_1X_2)$
+
+$= 3X^2 - 2XX_2-2XX_1+X_1X_2-2XX_0+X_0X_2+X_0X_1$
+\end{center}
+
+X = $X_0$
+
+$3X_0^2 - 2X_0X_2-2X_0X_1+X_1X_2-2X_0X_0+X_0X_2+X_0X_1$
+
+$3X_0^2-2X_0X_1-2X_0X_1+X_1X_2-2X_0^2+X_0X_2+X_0X_1$
+
+$X_0^2 - 3X_0X_1+X_0X_2+X_1X_2$
+
+$(X_0 - X_1)*(X_0 - X_2)$
+
+$(-h)*(-2h)$
+
+$2h^2 = O(h^2)$
+
+$\newline$
+
+X = $X_1$
+
+$3X_1^2-2X_1X_2-2X_1X_1-X_1X_2-X_1X_0+X_0X_2+X_0X_1$
+
+$3X_1^2-2X_1X_2-2X_1^2-X_1X_2-X_1X_0+X_0X_2+X_0X_1$
+
+$2X_1^2+3X_1X_2+X_0X_2$
+
+$-(X_0 - X_1)*(X_1 - X_2)$
+
+$-(-h)*(-h)$
+
+$-h^2 = O(h^2)$
+
+$\newline$
+
+X = $X_2$
+
+$3X_2^2-2X_2X_2-2X_2X_1+X_1X_2-X_2X_0+X_0X_2+X_0X_1$
+
+$X_2^2-2X_2X_1+X_1X_2-X_2X_0+X_0X_2+X_0X_1$
+
+$X_2^2-X_1X_2+X_0X_1$
+
+$(x0 - x2)*(x1 - x2)$
+
+$(-2h)*(-h)$
+
+$2h^2 = O(h^2)$
+
+\begin{center}
+(1) (C) Write Matlab code that uses your approximation to compute the derivative of any function f. The code should be a function called FirstDer(). FirstDer takes in two inputs: the first is the set of all points (X) at which we want the derivative, and the second is the set of data/function values at those points (Y = $f|_X$ = f(xk), k = 0, . . . , N). So, you have FirstDer(X,Y). The output is the list of values of the first derivative at each of the points computed by your formula from part a. The function f should be defined as an anonymous function in a file called DriverDer, which calls FirstDer() with the appropriate inputs, collects the outputs, computes errors, and plots them. Assume the points in X are sorted in ascending order.
+HINT: Loop over x, grab 3 points at a time, apply your formula from part a. Pay careful attention to the first and last points in your list.
+\end{center}
+
+\begin{center}
+Check the Matlab files
+\end{center}
+
+\begin{center}
+(1) (D) Plot the relative error of the approximation to the second derivative as a function of increasing number of points. Does this match your derivation from part b?
+\end{center}
+
+\begin{center}
+Check the Matlab files
+
+Yes it does, as you can see from the graph, it goes down as you would expect in the loglog plot
+\end{center}
+
+\begin{center}
+(2) (A) Generate an approximation to $\int_{a}^{b}$f(x)dx using a quadratic polynomial interpolant to f. Assume a
+you have 3 equispaced points, including the end points a and b; that is, let $x_0$ = a, $x_1$ = (a + b)/2 and $x_2$ = b be the 3 points
+\end{center}
+
+$\int_{a}^{b} \frac{Y_0(X - X_1)(X - X_2)}{(X_0 - X_1)(X_0 - X_2)}$dx + $\int_{a}^{b} \frac{Y_1(X - X_0)(X - X_2)}{(X_1 - X_0)(X_1 - X_2)}$dx + $\int_{a}^{b} \frac{Y_2(X - X_0)(X - X_1)}{(X_2 - X_0)(X_2 - X_1)}$dx
+$\newline$
+
+$\frac{\frac{x^3}{3} + \frac{x^2X_1}{2}+\frac{X^2X_2}{2}+XX_1X_2}{(X_0 - X_1)(X_0 - X_2)}$ + $\frac{\frac{x^3}{3} + \frac{x^2X_0}{2}+\frac{X^2X_2}{2}+XX_0X_2}{(X_1 - X_0)(X_1 - X_2)}$ + $\frac{\frac{x^3}{3} + \frac{x^2X_0}{2}+\frac{X^2X_1}{2}+XX_0X_1}{(X_2 - X_0)(X_2 - X_1)}\bigg|_{a = X_0}^{b = X_2}$
+$\newline$
+
+$\frac{(X*(3XX_0^2Y_1- 3XX_1^2Y_0 - 2X^2X_0Y_1 + 2X^2X_1y_0 - 3XX_0^2Y_2 + 3XX_2^2Y_0 + 2X^2X_0Y_2 - 2X^2X_2Y_0 + 3XX_1^2Y_2 - 3XX_2^2Y_1))}{(6(X_0 - X_1)(X_0 - X_2)(X_1 - X_2))} +$
+
+$\frac{(X*(- 6X_0X_1^2Y_2 + 6X_0X_2^2Y_1-6X_1X_2^2Y_0 - 2X^2X_1Y_2 + 2X^2X_2Y_1 + 6X_0^2X_1Y_2 - 6X_0^2X_2Y_1 + 6X_1^2X_2Y_0))}{(6(X_0 - X_1)(X_0 - X_2)(X_1 - X_2))} \bigg|_{a = X_0}^{b = X_2}$
+$\newline$
+
+Answer: Had to break it into two fraction to make it fix in the paper
+
+Same as above
+
+$\newline$
+
+$\frac{((X_0 - X_2)(3X_1^2Y_0 - X_0^2Y_1 + X_0^2Y_2 + X_2^2Y_0 + 3X_1^2Y_2 - X_2^2Y_1 - 2X_0X_1Y_0 + 2X_0X_2Y_0 - 4X_0X_1Y_2))}{(6*(X_0 - X_1)(X_1 - X_2))} + $
+
+ $\frac{(X_0 - X_2)(2X_0X_2Y_1 - 4X_1X_2Y_0 + 2X_0X_2Y_2 - 2*X_1X_2Y_2)}{(6*(X_0 - X_1)(X_1 - X_2))}$
+ $\newline$
+ 
+$\frac{((a - b)(3((a+b)/2)^2Y_0 - a^2Y_1 + a^2Y_2 + b^2Y_0 + 3((a+b)/2)^2Y_2 - b^2Y_1 - 2a((a+b)/2)Y_0 + 2abY_0 - 4a((a+b)/2)Y_2))}{(6*(a - ((a+b)/2))(((a+b)/2) - b))} + $
+
+ $\frac{(a - b)(2abY_1 - 4((a+b)/2)bY_0 + 2abY_2 - 2*((a+b)/2)bY_2)}{(6*(a - ((a+b)/2))(((a+b)/2) - b))}$ 
+ $\newline$
+ 
+ \begin{center}
+ Answer in a, b, and y form
+
+$\newline$
+
+  $-\frac{((a - b)*(Y_0 + 4*Y_1 + Y_2))}{6}$
+\end{center}
+
+\begin{center}
+Answer in h and y form
+
+$\newline$
+
+  $-\frac{((X_0 - X_2)*(Y_0 + 4*Y_1 + Y_2))}{6}$ = $-\frac{((-2h)*(Y_0 + 4*Y_1 + Y_2))}{6}$
+\end{center}
+
+ 
+ \begin{center}
+(2) (B) Derive the corresponding error term for this quadrature rule
+\end{center}
+
+$C = \frac{M_2}{6}$
+
+$C * \int_{a}^{b} (X - X_0)(X - X_1)(X - X_2)$
+
+$C * \int_{a}^{b} (X^2 - XX_1 - XX_0 + X_0X_1)(X - X_2)$
+
+$C * \int_{a}^{b} X^3 - X^2X_1 - X^2X_0 + XX_0X_1 - X^2X_2 + XX_1X_2 + XX_0X_2 - X_0X_1X_2$
+
+$C * \frac{X^4}{4} - \frac{X^3X_1}{3} - \frac{X^3X_0}{3} + \frac{X^2X_0X_1}{2} - \frac{X^3X_2}{3} + \frac{X^2X_1X_2}{2} + \frac{X^2X_0X_2}{2} - XX_0X_1X_2 \bigg|_{a = X_0}^{b = X_2}$
+
+$C * \frac{X^4}{4} + (( - \frac{X_0}{3} - \frac{X_1}{3} - \frac{X_2}{3}) * X^3) + ((\frac{(X_0X_1)}{2} \frac{(X_0X_2)}{2} + \frac{(X_1X_2))}{2}) * X^2) - XX_0X_1X_2 \bigg|_{a = X_0}^{b = X_2}$
+
+$C * ((X_0 - X_2)^3 * (X_0 - 2X_1 + X_2)) / 12$
+
+$C * ((-2*h)^3*(X_0 -2*(X_0 + h) + (X_1 + h))) /12$
+
+$C * (2*h^3*(h + X_0 - X_1))/3$
+
+$C * (2*h^3*(h + -h))/3$
+
+$C * (2*h^3*(0h))/3$
+
+\begin{center}
+(2) (C) What is the problem with using equally-spaced points to generate quadrature rules as the number of points increases? How do you alleviate this problem?
+
+
+The Runge Phenomenon is a problem of oscillation at the edges of an interval that occurs when using polynomial interpolation with polynomials of high degree over a set of equispaced interpolation points.
+
+Chebyshev zeroes and extrema non-uniform points which help against Runge Phenomenon. (And they turn out to be positions of equally spaced points on a semi-circle projected onto the diameter)
+
+\end{center}
+ 
+  \end{document}
