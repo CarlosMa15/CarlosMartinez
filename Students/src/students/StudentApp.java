@@ -119,8 +119,8 @@ public class StudentApp {
 			}
 
 		}
-		
-		if (students.size() == 0 || checker == 0){
+
+		if (students.size() == 0 || checker == 0) {
 			System.out.println("student could not be found");
 		}
 
@@ -146,10 +146,9 @@ public class StudentApp {
 		}
 
 	}
-	
+
 	/**
-	 * This method adds a student to the list with the
-	 * input of of the user. 
+	 * This method adds a student to the list with the input of of the user.
 	 */
 	private static void addStudent() {
 		System.out.print("First name: ");
@@ -161,8 +160,8 @@ public class StudentApp {
 		String major = input.nextLine();
 		System.out.println("GPA: ");
 		double gpa = input.nextDouble();
-		
-		students.add(new Student(fName,lName,major,gpa));
+
+		students.add(new Student(fName, lName, major, gpa));
 
 	}
 
